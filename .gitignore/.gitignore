@@ -1,0 +1,9 @@
+Please follow the below steps to flush the DNS cache :
+
+Please search CMD after pressing the Windows key. Once that is done, Right click on CMD and click on "Run as Administrator"
+When the command prompt opens, type ipconfig/flushdns and press Enter.
+Type ipconfig /registerdns and press Enter.
+Type ipconfig /release and press Enter.
+Type ipconfig /renew and press Enter.
+Type netsh winsock reset and press Enter.
+Reboot your computer.
